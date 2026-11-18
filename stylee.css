@@ -289,6 +289,44 @@ body {
     color: #361d14;
 }
 
+/* Reception Section */
+.reception-section {
+    width: 100%;
+    min-height: 100svh;
+    padding: 60px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("page-bg/page-bg6.png") center center / cover no-repeat;
+    color: #4A2923;
+}
+
+.reception-small-text {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.reception-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.reception-section h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.reception-date,
+.reception-time,
+.reception-venue {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
 /* Wedding Countdown */
 .countdown-section {
     width: 100%;
